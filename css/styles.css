@@ -1,0 +1,149 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #d7eaea;
+}
+
+h1{
+	margin: .5rem;
+	color: #07456f;
+	font-family: 'Staatliches', cursive;
+	font-size: 4.2rem;
+}
+
+h2{
+	margin-left: .5rem;
+	margin-right: .5rem;
+	color: #009f9d;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+nav a{
+	font-weight: bold;
+	padding-right: 1.22rem; 
+}
+
+p, li{
+	font-family: 'Playfair Display', serif;
+	color: #679186;
+	margin: 1rem;
+}
+
+footer{
+	background-color: #0f0a3c
+	text-align: center;
+}
+
+.dottedRule{
+	height: 7px;
+	width: 30%;
+	align-self: center;
+	border: 5px dotted cadetblue;
+
+}
+
+.insideDiv{
+	margin: 4rem auto 4rem auto;
+	padding-bottom: 2rem;
+}
+
+.profilePic{
+	border: 10px solid white;
+	display: block;
+	border-radius: 50%;
+	margin: 10px auto 10px auto;
+	height: 300px;
+	width: 300px;
+}
+
+.list-link{
+	color: #679186;
+}
+
+.list-link:hover{
+	color: #0f0a3c;
+}
+
+.skill-table{
+	text-align: center;
+	margin: 0px auto 0px auto;
+	width: 50%;
+	border-radius: 7%;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.skill-table thead{
+	background-color: #503bff;
+	color: white;
+	border-radius: 7%
+}
+
+.skill-table tbody{
+	border-radius: 7%;
+	background-color: white;
+}
+
+.skill-table th, td{
+	padding: 4px 10% 4px 10%;
+}
+
+.butn {
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%
+	display: block;
+	align-self: center;
+    border-radius: 28px;
+    font-size: 20px;
+    background: #05004e;
+    padding: 10px 20px 10px 20px;
+    border: solid #05004e 2px;
+    text-decoration: none;
+}
+
+.butn a{
+	font-weight: bold;
+	font-family: 'Roboto' sans-serif;
+	color: white;
+}
+
+.butn:hover {
+  background: #7dd8c7;
+  text-decoration: none;
+  border: solid #7dd8c7 2px;
+}
+
+.icon{
+	width: 25px;
+	height: 25px;
+}
+
+#navA{
+	position: absolute;
+	right: .5rem;
+	top: 1.5rem;
+	font-family: 'Roboto',sans-serif;
+}
+
+#navA a{
+	color: #0f0a3c;
+}
+
+#navA a:hover{
+	color: #a6e3e9;
+}
+
+#footer{
+	padding-top: 1.5rem;
+	height: 8rem;
+	text-align: center;
+	background-color: #0f0a3c;
+	margin-bottom: 0px;
+	font-size: small;
+}
